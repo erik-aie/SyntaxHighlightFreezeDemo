@@ -11,6 +11,21 @@
 		FA9DA02E2C455442002889CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DA02D2C455442002889CB /* ContentView.swift */; };
 		FA9DA0302C455443002889CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9DA02F2C455443002889CB /* Assets.xcassets */; };
 		FA9DA0342C455443002889CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9DA0332C455443002889CB /* Preview Assets.xcassets */; };
+		FA9DA0542C4556D1002889CB /* HLJSError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DA0502C4556D1002889CB /* HLJSError.swift */; };
+		FA9DA0552C4556D1002889CB /* HighlightSyntaxHighlighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DA0442C4556D1002889CB /* HighlightSyntaxHighlighter.swift */; };
+		FA9DA0562C4556D1002889CB /* Highlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DA0452C4556D1002889CB /* Highlight.swift */; };
+		FA9DA0572C4556D1002889CB /* HighlightColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DA04B2C4556D1002889CB /* HighlightColors.swift */; };
+		FA9DA0582C4556D1002889CB /* HighlightMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DA0482C4556D1002889CB /* HighlightMode.swift */; };
+		FA9DA0592C4556D1002889CB /* HighlightLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DA0492C4556D1002889CB /* HighlightLanguage.swift */; };
+		FA9DA05A2C4556D1002889CB /* HighlightResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DA0472C4556D1002889CB /* HighlightResult.swift */; };
+		FA9DA05B2C4556D1002889CB /* HighlightBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DA04D2C4556D1002889CB /* HighlightBackground.swift */; };
+		FA9DA05C2C4556D1002889CB /* HLJS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DA0512C4556D1002889CB /* HLJS.swift */; };
+		FA9DA05D2C4556D1002889CB /* HighlightCSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DA04C2C4556D1002889CB /* HighlightCSS.swift */; };
+		FA9DA05E2C4556D1002889CB /* HighlightEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DA04A2C4556D1002889CB /* HighlightEntry.swift */; };
+		FA9DA05F2C4556D1002889CB /* HLJSResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DA04F2C4556D1002889CB /* HLJSResult.swift */; };
+		FA9DA0602C4556D1002889CB /* HighlightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DA0462C4556D1002889CB /* HighlightTheme.swift */; };
+		FA9DA0612C4556D1002889CB /* highlight.min.js in Resources */ = {isa = PBXBuildFile; fileRef = FA9DA0422C4556D1002889CB /* highlight.min.js */; };
+		FA9DA0642C455706002889CB /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = FA9DA0632C455706002889CB /* MarkdownUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +35,20 @@
 		FA9DA02F2C455443002889CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA9DA0312C455443002889CB /* HighlightFreezeDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HighlightFreezeDemo.entitlements; sourceTree = "<group>"; };
 		FA9DA0332C455443002889CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA9DA0422C4556D1002889CB /* highlight.min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = highlight.min.js; sourceTree = "<group>"; };
+		FA9DA0442C4556D1002889CB /* HighlightSyntaxHighlighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightSyntaxHighlighter.swift; sourceTree = "<group>"; };
+		FA9DA0452C4556D1002889CB /* Highlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Highlight.swift; sourceTree = "<group>"; };
+		FA9DA0462C4556D1002889CB /* HighlightTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightTheme.swift; sourceTree = "<group>"; };
+		FA9DA0472C4556D1002889CB /* HighlightResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightResult.swift; sourceTree = "<group>"; };
+		FA9DA0482C4556D1002889CB /* HighlightMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightMode.swift; sourceTree = "<group>"; };
+		FA9DA0492C4556D1002889CB /* HighlightLanguage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightLanguage.swift; sourceTree = "<group>"; };
+		FA9DA04A2C4556D1002889CB /* HighlightEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightEntry.swift; sourceTree = "<group>"; };
+		FA9DA04B2C4556D1002889CB /* HighlightColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightColors.swift; sourceTree = "<group>"; };
+		FA9DA04C2C4556D1002889CB /* HighlightCSS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightCSS.swift; sourceTree = "<group>"; };
+		FA9DA04D2C4556D1002889CB /* HighlightBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightBackground.swift; sourceTree = "<group>"; };
+		FA9DA04F2C4556D1002889CB /* HLJSResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLJSResult.swift; sourceTree = "<group>"; };
+		FA9DA0502C4556D1002889CB /* HLJSError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLJSError.swift; sourceTree = "<group>"; };
+		FA9DA0512C4556D1002889CB /* HLJS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HLJS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9DA0642C455706002889CB /* MarkdownUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +82,7 @@
 		FA9DA02A2C455442002889CB /* HighlightFreezeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FA9DA0532C4556D1002889CB /* Highlight */,
 				FA9DA02B2C455442002889CB /* HighlightFreezeDemoApp.swift */,
 				FA9DA02D2C455442002889CB /* ContentView.swift */,
 				FA9DA02F2C455443002889CB /* Assets.xcassets */,
@@ -67,6 +98,51 @@
 				FA9DA0332C455443002889CB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA9DA0432C4556D1002889CB /* HighlightJS */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DA0422C4556D1002889CB /* highlight.min.js */,
+			);
+			path = HighlightJS;
+			sourceTree = "<group>";
+		};
+		FA9DA04E2C4556D1002889CB /* Highlight */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DA0452C4556D1002889CB /* Highlight.swift */,
+				FA9DA0462C4556D1002889CB /* HighlightTheme.swift */,
+				FA9DA0472C4556D1002889CB /* HighlightResult.swift */,
+				FA9DA0482C4556D1002889CB /* HighlightMode.swift */,
+				FA9DA0492C4556D1002889CB /* HighlightLanguage.swift */,
+				FA9DA04A2C4556D1002889CB /* HighlightEntry.swift */,
+				FA9DA04B2C4556D1002889CB /* HighlightColors.swift */,
+				FA9DA04C2C4556D1002889CB /* HighlightCSS.swift */,
+				FA9DA04D2C4556D1002889CB /* HighlightBackground.swift */,
+			);
+			path = Highlight;
+			sourceTree = "<group>";
+		};
+		FA9DA0522C4556D1002889CB /* HLJS */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DA04F2C4556D1002889CB /* HLJSResult.swift */,
+				FA9DA0502C4556D1002889CB /* HLJSError.swift */,
+				FA9DA0512C4556D1002889CB /* HLJS.swift */,
+			);
+			path = HLJS;
+			sourceTree = "<group>";
+		};
+		FA9DA0532C4556D1002889CB /* Highlight */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DA0432C4556D1002889CB /* HighlightJS */,
+				FA9DA0442C4556D1002889CB /* HighlightSyntaxHighlighter.swift */,
+				FA9DA04E2C4556D1002889CB /* Highlight */,
+				FA9DA0522C4556D1002889CB /* HLJS */,
+			);
+			path = Highlight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +161,9 @@
 			dependencies = (
 			);
 			name = HighlightFreezeDemo;
+			packageProductDependencies = (
+				FA9DA0632C455706002889CB /* MarkdownUI */,
+			);
 			productName = HighlightFreezeDemo;
 			productReference = FA9DA0282C455442002889CB /* HighlightFreezeDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +192,9 @@
 				Base,
 			);
 			mainGroup = FA9DA01F2C455442002889CB;
+			packageReferences = (
+				FA9DA0622C455706002889CB /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
+			);
 			productRefGroup = FA9DA0292C455442002889CB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9DA0612C4556D1002889CB /* highlight.min.js in Resources */,
 				FA9DA0342C455443002889CB /* Preview Assets.xcassets in Resources */,
 				FA9DA0302C455443002889CB /* Assets.xcassets in Resources */,
 			);
@@ -141,6 +224,19 @@
 			files = (
 				FA9DA02E2C455442002889CB /* ContentView.swift in Sources */,
 				FA9DA02C2C455442002889CB /* HighlightFreezeDemoApp.swift in Sources */,
+				FA9DA0542C4556D1002889CB /* HLJSError.swift in Sources */,
+				FA9DA0552C4556D1002889CB /* HighlightSyntaxHighlighter.swift in Sources */,
+				FA9DA0562C4556D1002889CB /* Highlight.swift in Sources */,
+				FA9DA0572C4556D1002889CB /* HighlightColors.swift in Sources */,
+				FA9DA0582C4556D1002889CB /* HighlightMode.swift in Sources */,
+				FA9DA0592C4556D1002889CB /* HighlightLanguage.swift in Sources */,
+				FA9DA05A2C4556D1002889CB /* HighlightResult.swift in Sources */,
+				FA9DA05B2C4556D1002889CB /* HighlightBackground.swift in Sources */,
+				FA9DA05C2C4556D1002889CB /* HLJS.swift in Sources */,
+				FA9DA05D2C4556D1002889CB /* HighlightCSS.swift in Sources */,
+				FA9DA05E2C4556D1002889CB /* HighlightEntry.swift in Sources */,
+				FA9DA05F2C4556D1002889CB /* HLJSResult.swift in Sources */,
+				FA9DA0602C4556D1002889CB /* HighlightTheme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +457,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FA9DA0622C455706002889CB /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FA9DA0632C455706002889CB /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FA9DA0622C455706002889CB /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
+			productName = MarkdownUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FA9DA0202C455442002889CB /* Project object */;
 }
