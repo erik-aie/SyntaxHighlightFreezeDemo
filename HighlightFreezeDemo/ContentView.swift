@@ -118,16 +118,20 @@ struct ContentView: View {
 //                }
 //            }
             //fails on iOS
-//            Markdown(demoMarkdown)
-//                .markdownCodeSyntaxHighlighter(HighlightSyntaxHighligher(isDarkMode: true))
-            //fails on iOS
+            Markdown(demoMarkdown)
+                .markdownCodeSyntaxHighlighter(HighlightSyntaxHighligher(isDarkMode: true))
+//            fails on iOS
 //            highlighter.highlightCode(demoSwift, language: "swift")
             //works cross platform
             Text(asyncLoadedAttributedText ?? AttributedString())
+            Text("Hello World")
         }
         .padding()
         .task {
-            asyncLoadedAttributedText = try? await highlighter.syntaxHighlighter.attributedText(demoSwift, language: .swift)
+            let loadedAttributedText = try? await highlighter.syntaxHighlighter.attributedText(demoSwift, language: .swift)
+            DispatchQueue.main.async {
+                asyncLoadedAttributedText = loadedAttributedText
+            }
         }
     }
     
